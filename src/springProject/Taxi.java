@@ -1,4 +1,4 @@
-package project;
+package springProject;
 
 public class Taxi extends publicTransport {
     //기본값 세팅

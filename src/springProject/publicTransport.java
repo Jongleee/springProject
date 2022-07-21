@@ -1,5 +1,4 @@
-package project;
-
+package springProject;
 public class publicTransport {
     int num; //번호
     int maxPassenger;//최대승객
