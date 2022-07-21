@@ -35,6 +35,7 @@ public class Bus extends publicTransport {
     public void oilUse(int oilUse) {
         oil += oilUse;
         if (oil < 10) {
+            this.status="차고지행";
             System.out.println("주유량 = " + oil);
             System.out.println("상태 = " + status);
             System.out.println("\n알럿 : 주유 필요");
@@ -57,7 +58,7 @@ public class Bus extends publicTransport {
                     + (maxPassenger - currentPassenger) + "\n요금 확인 = " + (passenger * intake));
         }
         if (currentPassenger > maxPassenger) {
-            System.out.println("\n알럿 : 최대 승객 수 초과");
+            System.out.println("알럿 : 최대 승객 수 초과");
             this.currentPassenger = 0;
         }
     }
