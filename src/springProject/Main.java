@@ -3,11 +3,10 @@ package springProject;
 public class Main{
     public static void main(String[] args) {
 
-//        bus1();//버스 시나리오 1
+        bus1();//버스 시나리오 1
+        bus2();//버스 시나리오 2
 
-//        bus2();//버스 시나리오 2
-
-//        taxi1();// 택시 시나리오 1
+        taxi1();// 택시 시나리오 1
         taxi2();// 택시 시나리오 2
 
     }
