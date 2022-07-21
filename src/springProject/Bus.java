@@ -17,7 +17,7 @@ public class Bus extends publicTransport {
     //번호 설정
     public void setNum() {
         num = num + 1;
-        System.out.println("번호 = " + num);
+        System.out.println("버스번호 = " + num);
     }
 
     //버스 상태 변경
