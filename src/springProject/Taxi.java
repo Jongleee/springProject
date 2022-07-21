@@ -72,7 +72,6 @@ public class Taxi extends publicTransport {
     public void intakePay() {
         intakeSum = intakeBase + intakeDistance * distanceTarget-1000;
         intakeAccumulate+=intakeSum;
-        if (intakeAccumulate>10000) intakeAccumulate+=1000;
         if (oil >= 10) {
             System.out.println("주유량 = " + oil + "\n누적 요금 = "+intakeAccumulate);
         }
